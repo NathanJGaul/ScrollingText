@@ -42,6 +42,14 @@
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_text" />
 
+            <Button
+                android:id="@+id/button_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="@string/add_comment"
+                android:textColor="@android:color/white" />
+
         </LinearLayout>
 
     </ScrollView>
